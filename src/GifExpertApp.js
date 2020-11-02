@@ -1,25 +1,13 @@
 import React, { useState } from "react";
 import AddCategory from "./components/AddCategory";
+import GifGrid from "./components/GifGrid";
+
 //import PropTypes from "prop-types";
 
 const GifExpertApp = (props) => {
-  //const initCategories = ["Rock", "Clasica", "Pop", "Punk"];
   const [categories, setCategories] = useState([
-    "Rock",
-    "Clasica",
-    "Pop",
-    "Punk",
+    "Rock"
   ]);
-
-  //setCategories([...categories, "Moderna"]);
-  //   const handleAdd = () => {
-  //     setCategories([...categories, "Moderna"]);
-  //     //setCategories( categs => [...categs, "Moderna"]);
-  //   };
-
-  //   const reset = () => {
-  //     setCategories(initCategories);
-  //   };
 
   return (
     <>
@@ -28,7 +16,8 @@ const GifExpertApp = (props) => {
       <hr />
       <ol>
         {categories.map((category, i) => (
-          <li key={category[i]}>{category}</li>
+          <GifGrid key={category} category={category} />
+          // <li key={category[i]}>{category}</li>
         ))}
       </ol>
       {/* 
