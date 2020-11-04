@@ -1,0 +1,23 @@
+.GifGridItem-wrapper {
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    width: 290px;
+    height: 290px;
+    min-width: 290px;
+    min-height: 290px;
+}
+
+.GifGridItem-wrapper h4 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.GifGridItem-wrapper img {
+    /* max-height: 150px; */
+    max-width: 200px;
+}
