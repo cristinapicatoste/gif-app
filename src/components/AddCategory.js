@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 
 const AddCategory = ({ setCategories }) => {
-  const [inputValue, setInputValue] = useState("Hello!");
+  const [inputValue, setInputValue] = useState("Gif searcher");
 
   const handleInputChange = (e) => {
     setInputValue(e.target.value);
@@ -18,7 +18,7 @@ const AddCategory = ({ setCategories }) => {
 
   return (
     <>
-      <h4>Add Category</h4>
+      <h3>Add Category</h3>
       <form onSubmit={handleSubmit}>
         <input
           type="text"

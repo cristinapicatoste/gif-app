@@ -6,7 +6,7 @@ const GifGridItem = ({ id, title, url }) => {
     return (
         <div className="GifGridItem-wrapper">
             <h4>{title}</h4>
-            <img src={url} alt={title} />
+            <img src={url} alt={title}/>
         </div>
     )
 }
