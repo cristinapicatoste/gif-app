@@ -19,7 +19,7 @@ Connecting the webapp to an API and create a simple app with react.
 
 ## Demo
 
-[Gif App Demo]()
+[Gif App Demo](https://cristinapicatoste.github.io/gif-app/)
 
 ## Try it yourself
 
